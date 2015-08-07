@@ -1,3 +1,13 @@
 header {
     background-image: url(../img/city.jpg);
 }
+
+.navbar-default {
+    background-color: transparent;
+}
+
+@media (max-width: 768px) {
+    .navbar-default {
+        background-color: #222;
+    }
+}
