@@ -6,7 +6,33 @@ header {
     background-color: transparent;
 }
 
-@media (max-width: 768px) {
+.skill_text {
+    font-size: 0.6em;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.orange_skill { 
+    color: #ff7f0e;
+}
+
+.blue_skill {
+    color: #1f77b4;
+}
+
+.red_skill {
+    color: #d62728;
+}
+
+.green_skill {
+    color: #2ca02c;
+}
+
+.purple_skill {
+    color: #9467bd;
+}
+
+@media (max-width: 992px) {
     .navbar-default {
         background-color: #222;
     }
