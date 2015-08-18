@@ -15,7 +15,7 @@ $(function() {
     });
 
     // Masonry Addition
-    setTimeout(initMasonry, 1000);
+    // setTimeout(initMasonry, 1000);
 });
 
 function initMasonry() {
