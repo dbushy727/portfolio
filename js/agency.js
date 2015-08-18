@@ -22,7 +22,7 @@ function initMasonry() {
     $('.grid').masonry({
         columnWidth: '.grid-sizer',
         itemSelector: '.grid-item',
-        percentPosition: true,
+        transitionDuration: '0.5s',
     });
 }
 // Highlight the top nav as scrolling occurs
