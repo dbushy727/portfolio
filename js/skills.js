@@ -65,7 +65,7 @@ skills = [
       "radius": 33
     }, 
     {
-      "name":"Code Igniter", 
+      "name":"CodeIgniter", 
       "category": "framework",
       "radius": 33
     }, 
