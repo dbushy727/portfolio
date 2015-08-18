@@ -10,11 +10,21 @@ $(function() {
         var $anchor = $(this);
         $('html, body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top
-        }, 1500, 'easeInOutExpo');
+        }, 2500, 'easeInOutQuint'); 
         event.preventDefault();
     });
+
+    // Masonry Addition
+    setTimeout(initMasonry, 1000);
 });
 
+function initMasonry() {
+    $('.grid').masonry({
+        columnWidth: '.grid-sizer',
+        itemSelector: '.grid-item',
+        percentPosition: true,
+    });
+}
 // Highlight the top nav as scrolling occurs
 $('body').scrollspy({
     target: '.navbar-fixed-top'

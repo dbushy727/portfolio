@@ -32,8 +32,15 @@ header {
     color: #9467bd;
 }
 
+.portfolio-modal .modal-content {
+    padding: 0;
+}
+
 @media (max-width: 992px) {
     .navbar-default {
         background-color: #222;
     }
+}
+.portfolio-modal .modal-content p.item-intro {
+    margin-bottom: 0;
 }
