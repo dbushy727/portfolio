@@ -44,3 +44,9 @@ header {
 .portfolio-modal .modal-content p.item-intro {
     margin-bottom: 0;
 }
+
+.divider {
+    height: 10em;
+    background: url("../img/web_design.jpg") fixed top center;
+    background-size: cover;
+}
