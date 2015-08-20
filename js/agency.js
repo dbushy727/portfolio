@@ -14,17 +14,8 @@ $(function() {
         event.preventDefault();
     });
 
-    // Masonry Addition
-    // setTimeout(initMasonry, 1000);
 });
 
-function initMasonry() {
-    $('.grid').masonry({
-        columnWidth: '.grid-sizer',
-        itemSelector: '.grid-item',
-        transitionDuration: '0.5s',
-    });
-}
 // Highlight the top nav as scrolling occurs
 $('body').scrollspy({
     target: '.navbar-fixed-top'

@@ -45,8 +45,16 @@ header {
     margin-bottom: 0;
 }
 
+
+.divider_1 {
+    background: url("../img/web_design.jpg") fixed top center;
+}
+.divider_2 {
+    background: url("../img/lake.jpg") fixed top center;
+}
+
 .divider {
     height: 10em;
-    background: url("../img/web_design.jpg") fixed top center;
     background-size: cover;
+    background-repeat: no-repeat;
 }
