@@ -17,7 +17,6 @@ var cbpAnimatedHeader = (function() {
 
 	function init() {
 		window.addEventListener( 'scroll', function( event ) {
-			console.log("scroll");
 			if( !didScroll ) {
 				didScroll = true;
 				setTimeout( scrollPage, 250 );

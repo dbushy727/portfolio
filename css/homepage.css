@@ -58,3 +58,49 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+
+.action_button{
+  background:#2DCA95;
+  color:#fff;
+  border:none;
+  position:relative;
+  padding:0 2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+}
+.action_button:hover{
+  background:#fff;
+  color:#2DCA95;
+}
+.action_button:before,.action_button:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #2DCA95;
+  transition:400ms ease all;
+}
+.action_button:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+.action_button:hover:before,.action_button:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+
+.mini_button {
+    font-size: 14px;
+    padding: 6px 12px;
+}
+
+.big_button {
+    font-size: 20px;
+    padding: 24px 48px;
+}
